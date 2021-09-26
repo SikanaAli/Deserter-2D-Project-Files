@@ -26,7 +26,8 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 First window
-![image](https://github.com/SikanaAli/Deserter-2D-Project-Files/blob/main/Page/Img/first.png)
+
+![Image](https://github.com/SikanaAli/Deserter-2D-Project-Files/blob/main/Page/Img/first.png)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
