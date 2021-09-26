@@ -1,0 +1,759 @@
+fileFormatVersion: 2
+guid: 706e8bec6be4a4c438a8d177cf9f9cd5
+timeCreated: 1476009888
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dead__000
+    21300002: Dead__001
+    21300004: Dead__002
+    21300006: Dead__003
+    21300008: Dead__004
+    21300010: Dead__005
+    21300012: Dead__006
+    21300014: Dead__007
+    21300016: Dead__008
+    21300018: Dead__009
+    21300020: Idle__000
+    21300022: Idle__001
+    21300024: Idle__002
+    21300026: Idle__003
+    21300028: Idle__004
+    21300030: Idle__005
+    21300032: Idle__006
+    21300034: Idle__007
+    21300036: Idle__008
+    21300038: Idle__009
+    21300040: Jump__000
+    21300042: Jump__001
+    21300044: Jump__002
+    21300046: Jump__003
+    21300048: Jump__004
+    21300050: Jump__005
+    21300052: Jump__006
+    21300054: Jump__007
+    21300056: Jump__008
+    21300058: Jump__009
+    21300060: Run__000
+    21300062: Run__001
+    21300064: Run__002
+    21300066: Run__003
+    21300068: Run__004
+    21300070: Run__005
+    21300072: Run__006
+    21300074: Run__007
+    21300076: Run__008
+    21300078: Run__009
+    21300080: Slide__000
+    21300082: Slide__001
+    21300084: Slide__002
+    21300086: Slide__003
+    21300088: Slide__004
+    21300090: Slide__005
+    21300092: Slide__006
+    21300094: Slide__007
+    21300096: Slide__008
+    21300098: Slide__009
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dead__000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1388
+        width: 309
+        height: 471
+      alignment: 9
+      pivot: {x: 0.8446602, y: 0.47983015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dead__001
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1389
+        width: 346
+        height: 470
+      alignment: 9
+      pivot: {x: 0.78612715, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dead__002
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1424
+        width: 399
+        height: 435
+      alignment: 9
+      pivot: {x: 0.67418545, y: 0.58850574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dead__003
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1501
+        width: 427
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5925059, y: 0.68994415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dead__004
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1555
+        width: 475
+        height: 304
+      alignment: 9
+      pivot: {x: 0.55368423, y: 0.77960527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dead__005
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1589
+        width: 487
+        height: 270
+      alignment: 9
+      pivot: {x: 0.54414785, y: 0.88148147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dead__006
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 1599
+        width: 495
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5494949, y: 0.9461538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dead__007
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 1599
+        width: 495
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5494949, y: 0.9461538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dead__008
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 1599
+        width: 495
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5494949, y: 0.9461538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dead__009
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 1599
+        width: 495
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5494949, y: 0.9461538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle__000
+      rect:
+        serializedVersion: 2
+        x: 2953
+        y: 1373
+        width: 311
+        height: 486
+      alignment: 9
+      pivot: {x: 0.5128617, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle__001
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 1373
+        width: 312
+        height: 486
+      alignment: 9
+      pivot: {x: 0.50801283, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle__002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 886
+        width: 312
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5048077, y: 0.5010309}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle__003
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 887
+        width: 313
+        height: 484
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50206614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle__004
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 888
+        width: 312
+        height: 483
+      alignment: 9
+      pivot: {x: 0.49519232, y: 0.5031056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle__005
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 889
+        width: 313
+        height: 482
+      alignment: 9
+      pivot: {x: 0.49041533, y: 0.5041494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle__006
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 888
+        width: 312
+        height: 483
+      alignment: 9
+      pivot: {x: 0.49519232, y: 0.5031056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle__007
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 887
+        width: 313
+        height: 484
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50206614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle__008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 886
+        width: 312
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5048077, y: 0.5010309}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle__009
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 1373
+        width: 312
+        height: 486
+      alignment: 9
+      pivot: {x: 0.50801283, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Jump__000
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 900
+        width: 335
+        height: 471
+      alignment: 9
+      pivot: {x: 0.45820895, y: 0.54989386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Jump__001
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 883
+        width: 332
+        height: 488
+      alignment: 9
+      pivot: {x: 0.5256024, y: 0.5491803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Jump__002
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 924
+        width: 323
+        height: 447
+      alignment: 9
+      pivot: {x: 0.5866873, y: 0.5033557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Jump__003
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 925
+        width: 323
+        height: 446
+      alignment: 9
+      pivot: {x: 0.5897833, y: 0.50224215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Jump__004
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 925
+        width: 323
+        height: 446
+      alignment: 9
+      pivot: {x: 0.5897833, y: 0.50224215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Jump__005
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 925
+        width: 323
+        height: 446
+      alignment: 9
+      pivot: {x: 0.5897833, y: 0.50224215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Jump__006
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 888
+        width: 314
+        height: 483
+      alignment: 9
+      pivot: {x: 0.5557325, y: 0.54451346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Jump__007
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 892
+        width: 318
+        height: 479
+      alignment: 9
+      pivot: {x: 0.5455975, y: 0.5427975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Jump__008
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 921
+        width: 322
+        height: 450
+      alignment: 9
+      pivot: {x: 0.53881985, y: 0.5177778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Jump__009
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 921
+        width: 322
+        height: 450
+      alignment: 9
+      pivot: {x: 0.53881985, y: 0.5177778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run__000
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 895
+        width: 348
+        height: 476
+      alignment: 9
+      pivot: {x: 0.41235632, y: 0.5094538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run__001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 389
+        width: 365
+        height: 492
+      alignment: 9
+      pivot: {x: 0.45890412, y: 0.5152439}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run__002
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 393
+        width: 370
+        height: 488
+      alignment: 9
+      pivot: {x: 0.48513514, y: 0.50307375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run__003
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 418
+        width: 403
+        height: 463
+      alignment: 9
+      pivot: {x: 0.51488835, y: 0.4827214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run__004
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 410
+        width: 405
+        height: 471
+      alignment: 9
+      pivot: {x: 0.49506173, y: 0.5042463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run__005
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 410
+        width: 342
+        height: 471
+      alignment: 9
+      pivot: {x: 0.40204677, y: 0.5042463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run__006
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 390
+        width: 352
+        height: 491
+      alignment: 9
+      pivot: {x: 0.44460228, y: 0.51221997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run__007
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 405
+        width: 367
+        height: 476
+      alignment: 9
+      pivot: {x: 0.4918256, y: 0.48634455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run__008
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 432
+        width: 359
+        height: 449
+      alignment: 9
+      pivot: {x: 0.46935934, y: 0.4599109}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run__009
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 416
+        width: 375
+        height: 465
+      alignment: 9
+      pivot: {x: 0.45466667, y: 0.49784946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Slide__000
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 499
+        width: 392
+        height: 382
+      alignment: 9
+      pivot: {x: 0.49744898, y: 0.4986911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Slide__001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 390
+        height: 382
+      alignment: 9
+      pivot: {x: 0.4948718, y: 0.4986911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Slide__002
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 4
+        width: 389
+        height: 383
+      alignment: 9
+      pivot: {x: 0.49357328, y: 0.49738905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Slide__003
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 4
+        width: 388
+        height: 383
+      alignment: 9
+      pivot: {x: 0.49226806, y: 0.49738905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Slide__004
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 4
+        width: 386
+        height: 383
+      alignment: 9
+      pivot: {x: 0.48963732, y: 0.49738905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Slide__005
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 4
+        width: 385
+        height: 383
+      alignment: 9
+      pivot: {x: 0.48831168, y: 0.49738905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Slide__006
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 4
+        width: 386
+        height: 383
+      alignment: 9
+      pivot: {x: 0.48963732, y: 0.49738905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Slide__007
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 4
+        width: 388
+        height: 383
+      alignment: 9
+      pivot: {x: 0.49226806, y: 0.49738905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Slide__008
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 4
+        width: 389
+        height: 383
+      alignment: 9
+      pivot: {x: 0.49357328, y: 0.49738905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Slide__009
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 5
+        width: 390
+        height: 382
+      alignment: 9
+      pivot: {x: 0.4948718, y: 0.4986911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

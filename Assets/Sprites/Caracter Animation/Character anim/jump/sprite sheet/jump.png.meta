@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 023cbb31712e8ca43a6ff7c3ad9fc4af
+timeCreated: 1476082029
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: jump00000
+    21300002: jump00001
+    21300004: jump00002
+    21300006: jump00003
+    21300008: jump00004
+    21300010: jump00005
+    21300012: jump00006
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jump00000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 9
+        width: 113
+        height: 278
+      alignment: 9
+      pivot: {x: 0.40707964, y: 0.53956836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jump00001
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 13
+        width: 120
+        height: 274
+      alignment: 9
+      pivot: {x: 0.38333333, y: 0.55474454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jump00002
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 25
+        width: 115
+        height: 262
+      alignment: 9
+      pivot: {x: 0.26956522, y: 0.58778626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jump00003
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 21
+        width: 118
+        height: 266
+      alignment: 9
+      pivot: {x: 0.26271185, y: 0.575188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jump00004
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 22
+        width: 121
+        height: 265
+      alignment: 9
+      pivot: {x: 0.2644628, y: 0.5773585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jump00005
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 14
+        width: 122
+        height: 273
+      alignment: 9
+      pivot: {x: 0.18032786, y: 0.5567766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: jump00006
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 3
+        width: 111
+        height: 284
+      alignment: 9
+      pivot: {x: 0.22522523, y: 0.5387324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

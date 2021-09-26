@@ -1,0 +1,17 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprites/Caracter Animation/Character anim/Animation/idle-run.tpsheet
+- Assets/Sprites/Caracter Animation/Character anim/jump/sprite sheet/jump.tpsheet
+- Assets/Player/Sprite Sheet/Frank.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Sprites/Caracter Animation/Character anim/Animation/idel-run.png
+- Assets/Sprites/Caracter Animation/Character anim/jump/sprite sheet/jump.png
+- Assets/Player/Sprite Sheet/frank.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
