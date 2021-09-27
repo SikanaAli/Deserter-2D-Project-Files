@@ -106,7 +106,7 @@ void OnCollisionEnter2D(Collision2D coll) {
 }
 ```
 
-![Image](/Page/Img/first.png) 
+![Image](https://github.com/SikanaAli/Deserter-2D-Project-Files/blob/main/Page/Img/first.png) 
 
 ![Level 1](https://github.com/SikanaAli/Deserter-2D-Project-Files/blob/main/Page/Img/Level%201.jpg)
 
