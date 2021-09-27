@@ -8,7 +8,7 @@ You will find some info about the project, a few `screen shots` and `code` sampl
 
 The aim is to yield the ability to create 2d games with Unity while at the same time gaining a better understanding of JavaScript and C# (C Sharp) in relation to game development.
 
-####Objective
+#### Objective
 
 - To assemble game characters with Crazy talk Animator
 - To investigate the use of sprites and sprite sheets in 2D games
@@ -18,7 +18,7 @@ The aim is to yield the ability to create 2d games with Unity while at the same 
 #### Screen Shots
 
 #### Code Samples
-```C#
+```c#
 /*Camera Follow Script*/
 
 using UnityEngine;
