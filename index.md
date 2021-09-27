@@ -1,31 +1,110 @@
 ## Deserter 2D
 
-You can use the [editor on GitHub](https://github.com/SikanaAli/Deserter-2D-Project-Files/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Before i set out to create a video game as my **Final Year Project** i had always had a passion for games and was driven to figure out just how exactly they are created.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You will find some info about the project, a few `screen shots` and `code` samples
 
-### Markdown
+#### Aim
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The aim is to yield the ability to create 2d games with Unity while at the same time gaining a better understanding of JavaScript and C# (C Sharp) in relation to game development.
 
-```markdown
-Syntax highlighted code block
+####Objective
 
-# Header 1
-## Header 2
-### Header 3
+- To assemble game characters with Crazy talk Animator
+- To investigate the use of sprites and sprite sheets in 2D games
+- To formulate and generate 2d game environments
+- To construct a working game for the windows platform
 
-- Bulleted
-- List
+#### Screen Shots
 
-1. Numbered
-2. List
+#### Code Samples
+```C#
+/*Camera Follow Script*/
 
-**Bold** and _Italic_ and `Code` text
+using UnityEngine;
+using System.Collections;
 
-[Link](url) and ![Image](src)
+public class FollowCamera : MonoBehaviour {
+
+	public float interpVelocity;
+
+	public float minDistance;
+
+	public float followDistance;
+
+	public GameObject target;
+
+	public Vector3 offset;
+
+	Vector3 targetPos;
+
+	public bool bounds;
+
+	public Vector3 minCameraPos;
+
+	public Vector3 maxCameraPos;
+
+	// Use this for initialization
+
+	void Start () {
+
+		targetPos = transform.position;
+
+	}
+	// Update is called once per frame
+
+	void FixedUpdate () {
+
+		if (target)
+
+		{
+
+			Vector3 posNoZ = transform.position;
+
+			posNoZ.z = target.transform.position.z;
+
+			Vector3 targetDirection = (target.transform.position - posNoZ);
+
+			interpVelocity = targetDirection.magnitude * 5f;
+
+			targetPos = transform.position + (targetDirection.normalized * interpVelocity * Time.deltaTime); 
+
+			transform.position = Vector3.Lerp( transform.position, targetPos + offset, 0.25f);
+
+			if(bounds)
+			{ 
+				transform.position = new Vector3(Mathf.Clamp(transform.position.x, minCameraPos.x, maxCameraPos.x),
+					Mathf.Clamp(transform.position.y, minCameraPos.y, maxCameraPos.y),
+					Mathf.Clamp(transform.position.z, minCameraPos.z, maxCameraPos.z));
+			}
+
+		}
+
+	}
+
+}
 ```
-First window
+
+```c#
+/* Collision function that perfomrs deffernt actions based on what the player collides with */
+
+void OnCollisionEnter2D(Collision2D coll) {
+    if (coll.gameObject.tag == "Enemy") {
+        health.CurrentVal -= 10;
+    } else if (coll.gameObject.tag == "HealthUp") {
+        health.CurrentVal += 20;
+        Destroy (coll.gameObject);
+    } else if (coll.gameObject.tag == "ammo") {
+        Ammo.ammo += 20;
+        Destroy (coll.gameObject);
+    } else if (coll.gameObject.tag == "coin") {
+
+        Destroy (coll.gameObject);
+        coinSound.Play ();
+        ScoreManager.score += 30;
+    }
+}
+```
 
 ![Image](https://github.com/SikanaAli/Deserter-2D-Project-Files/blob/main/Page/Img/first.png)
 
